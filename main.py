@@ -129,8 +129,8 @@ def get_transactions(txs):
 
 def get_transaction_list(target_adress):
     result = []
-    print("Hittade inget bra RPC anrop att använda, så handjagar detta på klientsidan, vilket är idiotiskt då det blir en jävla massa anrop.\n--------")
-    print("CTRL + C, för att avbryta.")
+    print("Hittade inget bra RPC anrop att använda, så handjagar detta på klientsidan, \nvilket är idiotiskt då det blir en jävla massa anrop.")
+    print("CTRL + C, för att avbryta.\n--------")
     totalCount = get_max_block_nr()
     for idx in range(totalCount):
         if idx == 0:
